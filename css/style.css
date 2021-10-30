@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 html {
   font-size: 100%;
 }
@@ -31,7 +30,7 @@ ul {
 /*-------------------------------------------
 SP
 -------------------------------------------*/
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
   .content {
     padding: 0 10px;
     margin: 10px auto;
@@ -42,5 +41,14 @@ SP
   }
   #thumbnail li {
     padding: 5px;
+  }
+} */
+
+@media (orientation: landscape) and (max-width: 900px){
+  #thumbnail li {
+    float: right;
+    list-style: none;
+    /* display: inline; */
+    margin: 10px;
   }
 }
