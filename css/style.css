@@ -20,6 +20,7 @@ ul {
   padding: 10px;
 }
 #thumbnail {
+  /* background-color: aqua; */
   display: flex;
 }
 #thumbnail li {
@@ -44,11 +45,29 @@ SP
   }
 } */
 
-@media (orientation: landscape) and (max-width: 900px){
+@media (orientation: landscape) and (min-width: 900px){
+ 
+  body{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .content {
+    display: inline-block;
+    max-width: 1000px;
+    padding: 0;
+    margin: 20px auto;
+  }
+
+  #thumbnail {
+    padding: 0;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* background-color: blue; */
+  }
   #thumbnail li {
-    float: right;
-    list-style: none;
-    /* display: inline; */
-    margin: 10px;
+    /* float: right;
+    list-style: none; */
+    padding: 7px;
   }
 }
