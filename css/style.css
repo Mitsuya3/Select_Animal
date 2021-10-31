@@ -12,8 +12,10 @@ ul {
 
 .content {
   max-width: 1000px;
-  padding: 0 20px;
-  margin: 20px auto;
+  /* padding: 0 20px;
+  margin: 20px auto; */
+  padding: 0;
+  margin: 0;
 }
 
 #mainvisual {
@@ -56,8 +58,9 @@ SP
   .content {
     display: inline-block;
     max-width: 1000px;
-    padding: 0;
-    margin: 20px auto;
+    padding: 0px;
+    /* margin: 20px auto; */
+    margin: 0;
   }
 
   #thumbnail {
@@ -69,6 +72,6 @@ SP
   #thumbnail li {
     /* float: right;
     list-style: none; */
-    padding: 7px;
+    padding: 5px;
   }
 }
