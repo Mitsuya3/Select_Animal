@@ -45,7 +45,8 @@ SP
   }
 } */
 
-@media (orientation: landscape) and (max-width: 900px){
+/* @media (orientation: landscape) and (max-width: 900px){ */
+@media (orientation: landscape){
  
   body{
     display: flex;
